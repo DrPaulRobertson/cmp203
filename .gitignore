@@ -24,10 +24,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 
-#Force keep
-!*/[Dd]ebug/freeglut.dll
-![Rr]elease/freeglut.dll
-!*/freeglut.dll
+
+
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -333,4 +331,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+#Force keep
 GraphicsProgramming/GraphicsProgramming/models/Thumbs.db
