@@ -13,10 +13,10 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
+#[Dd]ebug/
+#[Dd]ebugPublic/
+#[Rr]elease/
+#[Rr]eleases/
 x64/
 x86/
 bld/
@@ -24,7 +24,16 @@ bld/
 [Oo]bj/
 [Ll]og/
 
+![Dd]ebug/freeglut.dll
+#[Dd]ebug/*.*
+!release/freeglut.dll
+#release/*
 
+*.tlog
+*.exe
+*.idb
+*/**/Debug/*.obj
+*/**/Release/*.obj
 
 
 # Visual Studio 2015/2017 cache/options directory
@@ -332,5 +341,5 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 
-#Force keep
+
 GraphicsProgramming/GraphicsProgramming/models/Thumbs.db
